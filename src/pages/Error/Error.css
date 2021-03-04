@@ -1,0 +1,14 @@
+/* 
+================================================================= 
+Error
+=================================================================
+*/
+.error-page {
+    display: flex;
+    justify-content: center;
+  }
+  .error-container {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  

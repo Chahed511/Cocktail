@@ -1,0 +1,49 @@
+/* 
+====== 
+Navbar
+======
+*/
+.navbar {
+    background: white  !important; 
+    height: 5rem;
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--smallWidth);
+    margin: 0 auto;
+   
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links a {
+    text-transform: capitalize;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem;
+    transition: var(--mainTransition);
+  }
+  .nav-links li {
+margin-top : -50px !important;
+
+
+
+  }
+  .nav-links a:hover {
+    color: var(--primaryColor);
+  }
+  .logo {
+    width: 8rem;
+    margin-right: 20px;
+  }

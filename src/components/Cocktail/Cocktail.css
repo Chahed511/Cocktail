@@ -1,0 +1,57 @@
+/* 
+====== 
+Cocktail 
+======
+*/
+
+.cocktail {
+    background: White;
+    margin-bottom: 2rem;
+    transition: var(--mainTransition);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border-radius: 50px;
+    border:solid;
+    
+    border-color: rgba(0, 0, 255, 0.212) ;
+    
+  }
+.img-container img{
+
+    border-radius: 50px;
+ 
+}
+
+  .cocktail:hover {
+    box-shadow: var(--darkShadow);
+  }
+
+  .cocktail-footer {
+    padding: 1.5rem;
+    border-radius: 2px !important;
+    border-color: blue !important;
+  }
+  .cocktail-footer h3,
+  .cocktail-footer h4,
+  .cocktail-footer p {
+    margin-bottom: 0.3rem;
+  }
+  .cocktail-footer h3 {
+    font-size: 2.2rem;
+  }
+  .cocktail-footer p {
+    color: darkGrey;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-details {
+    padding: 0.25rem 0.4rem;
+    margin-left: 100px;
+
+  }
+  .btn-details:hover {
+    background: blue;
+    
+  }
+
+  

@@ -1,0 +1,30 @@
+/*
+====== 
+About
+======
+*/
+
+.about-section {
+    width: small; 
+    margin: 0 auto;
+    text-align: justify;;
+    text-justify: inter-word ;
+  }
+  .about-section p {
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: justify;;
+    text-justify: inter-word ;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    text-align: justify;;
+    text-justify: inter-word ;
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+    
+  }
